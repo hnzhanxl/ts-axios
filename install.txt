@@ -1,0 +1,35 @@
+1.安装typescript编译环境【全局安装一次，其他地方都可用】
+  npm i typescript -g
+  检查： tsc -v
+
+
+
+2.用TS重构axios
+  在浏览器端使用XMLRequest对象通讯
+  支持Promise API
+  支持请求和响应的拦截器
+  支持请求数据和响应数据的转换
+  支持请求的取消
+  JSON数据的自动转换
+  客户端防止XSRF
+
+
+  https://github.com/hnzhanxl/ts-axios.git
+
+  https://github.com/alexjoverm/typescript-library-starter.git
+
+
+3.开发步骤
+  3.1初始化
+    git clone https://github.com/alexjoverm/typescript-library-starter.git ts-axios
+    cd ts-axios
+    npm i
+  3.2创建远程git 仓库，建立关联
+    创建git 远程仓库 https://github.com/hnzhanxl/ts-axios.git
+    本地和远程仓库进行关联
+    git remote add origin  git@github.com:hnzhanxl/ts-axios.git
+  3.3拉取远程库文件，并合并到本地
+    git pull origin master
+    查看本地
+    git branch
+
